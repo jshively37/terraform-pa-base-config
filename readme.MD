@@ -16,8 +16,9 @@ This project is dependent on Terraform.
 
 Project development used the following versions:
 
-Package	Version
-terraform	1.13.3
+| Package   | Version |
+|-----------|---------|
+| terraform | 1.13.3  |
 
 Note: This project has yet to be tested on OpenTofu.
 
