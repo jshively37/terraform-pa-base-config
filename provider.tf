@@ -1,3 +1,6 @@
+provider "scm" {
+
+}
 terraform {
   required_providers {
     scm = {
