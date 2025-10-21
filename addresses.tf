@@ -4,9 +4,9 @@ locals {
 
 resource "scm_address" "adem_addresses" {
     for_each = var.adem_map
-    folder = "Prisma Access"
+    folder = "Shared"
     name = each.key
-    ip_netmask = each.value.fqdn
+    fqdn = each.value.fqdn
     tag = each.value.tag
 }
 
